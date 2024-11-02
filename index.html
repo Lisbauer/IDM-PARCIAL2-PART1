@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial 2 - Part 1 - IDM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid d-flex flex-column align-items-center">
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Preventa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container-fluid bg-pink text-light p-4">
+        <div class="container">
+          <h1>Los más vendidos</h1>
+          <div class="row">
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/nezukofigura.jpg"
+                  onmouseover="this.src='./imagenes/nezukofigura2.jpg'"
+                  onmouseout="this.src='./imagenes/nezukofigura.jpg'"
+                  alt="figura de nezuko kamado"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Nezuko Kamado</h5>
+                  <p class="card-text">Figura de colección de 12cm.</p>
+                  <span class="text-primary font-weight-bold">$19.999</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/rengoku.jpg"
+                  onmouseover="this.src='./imagenes/rengoku2.jpg'"
+                  onmouseout="this.src='./imagenes/rengoku.jpg'"
+                  alt="figura de Rengoku Kyojuro"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Rengoku Kyojuro</h5>
+                  <p class="card-text">Figura de colección de 13cm.</p>
+                  <span class="text-primary font-weight-bold">$29.999</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/tanji.jpg"
+                  onmouseover="this.src='./imagenes/tanji2.jpg'"
+                  onmouseout="this.src='./imagenes/tanji.jpg'"
+                  alt="figura de Tanjiro Kamado"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Tanjiro Kamado</h5>
+                  <p class="card-text">Última edición, figura, 20cm.</p>
+                  <span class="text-primary font-weight-bold">$39.900</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/jinxfunko.jpg"
+                  onmouseover="this.src='./imagenes/jinxfunko2.jpg'"
+                  onmouseout="this.src='./imagenes/jinxfunko.jpg'"
+                  alt="Funko Pop de Jinx"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Jinx</h5>
+                  <p class="card-text">Funko POP Jinx LOL Arcane.</p>
+                  <span class="text-primary font-weight-bold">$65.000</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/zoro.jpg"
+                  onmouseover="this.src='./imagenes/zoro2.jpg'"
+                  onmouseout="this.src='./imagenes/zoro.jpg'"
+                  alt="Figura de Zoro de One Piece"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Zoro One Piece</h5>
+                  <p class="card-text">Última edición, figura, 24cm.</p>
+                  <span class="text-primary font-weight-bold">$165.000</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/mikasa.jpg"
+                  onmouseover="this.src='./imagenes/mikasa2.jpg'"
+                  onmouseout="this.src='./imagenes/mikasa.jpg'"
+                  alt="Figura de Mikasa de AOT"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Mikasa Ackerman</h5>
+                  <p class="card-text">22cm, original de Japón.</p>
+                  <span class="text-primary font-weight-bold">$125.000</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/naruto.jpg"
+                  onmouseover="this.src='./imagenes/naruto2.jpg'"
+                  onmouseout="this.src='./imagenes/naruto.jpg'"
+                  alt="Figura de Kakashi Hatake"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kakashi Hatake</h5>
+                  <p class="card-text">Figura original de Japón.</p>
+                  <span class="text-primary font-weight-bold">$115.000</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./imagenes/jett.jpg"
+                  onmouseover="this.src='./imagenes/jett2.jpg'"
+                  onmouseout="this.src='./imagenes/jett.jpg'"
+                  alt="Figura de Jett de Valorant"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Jett Valorant</h5>
+                  <p class="card-text">Original de RIOT GAMES.</p>
+                  <span class="text-primary font-weight-bold">$189.000</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid bg-pink text-light p-4">
+        <div class="container">
+          <h2>🔥Ofertas de la semana🔥</h2>
+          <div class="row">
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <h4 class="descuento">35% off</h4>
+                <img
+                  src="./imagenes/daenerys.jpg"
+                  onmouseover="this.src='./imagenes/daenerys2.jpg'"
+                  onmouseout="this.src='./imagenes/daenerys.jpg'"
+                  alt="Funko Pop Daenerys Targaryen Game of thrones"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Daenerys Targaryen</h5>
+                  <p class="card-text">Funko POP de colección.</p>
+                  <span
+                    class="text-white bg-danger font-weight-bold d-inline-block p-1"
+                    >$41.999</span
+                  >
+                  <span class="text-primary font-weight-bold">$36,750</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <h4 class="descuento">25% off</h4>
+                <img
+                  src="./imagenes/harrypotter2.jpg"
+                  onmouseover="this.src='./imagenes/harrypotter1.jpg'"
+                  onmouseout="this.src='./imagenes/harrypotter2.jpg'"
+                  alt="Funko Pop de Harry Potter"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Harry Potter</h5>
+                  <p class="card-text">Funko POP de colección.</p>
+                  <span
+                    class="text-white bg-danger font-weight-bold d-inline-block p-1"
+                    >$29.999</span
+                  >
+                  <span class="text-primary font-weight-bold">$22,499.25</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <h4 class="descuento">30% off</h4>
+                <img
+                  src="./imagenes/luffy.jpg"
+                  onmouseover="this.src='./imagenes/luffy2.jpg'"
+                  onmouseout="this.src='./imagenes/luffy.jpg'"
+                  alt="Funko Pop de Luffy"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Luffy One Piece</h5>
+                  <p class="card-text">Diorama de colección.</p>
+                  <span
+                    class="text-white bg-danger font-weight-bold d-inline-block p-1"
+                    >$39.999</span
+                  >
+                  <span class="text-primary font-weight-bold">$27,999</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <div class="card h-100">
+                <h4 class="descuento">10% off</h4>
+                <img
+                  src="./imagenes/ragnar.jpg"
+                  onmouseover="this.src='./imagenes/ragnar2.jpg'"
+                  onmouseout="this.src='./imagenes/ragnar.jpg'"
+                  alt="Funko Pop de Sonic"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ragnar Lothbrok</h5>
+                  <p class="card-text">Funko POP de colección.</p>
+                  <span
+                    class="text-white bg-danger font-weight-bold d-inline-block p-1"
+                    >$18.999</span
+                  >
+                  <span class="text-primary font-weight-bold">$17,099.10</span>
+                  <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-12 col-md-6 col-lg-4">
+            <h4>Alumna</h4>
+            <img
+              src="./imagenes/image-personal.jpg"
+              alt="imagen personal de Lisa Bauer"
+            />
+            <ul>
+              <li><a href="#">Lisa, Bauer</a></li>
+              <li><a href="#">04/05/1996</a></li>
+              <li><a href="#">lisa.bauer@davinci.edu.ar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
